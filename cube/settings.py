@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["safe-scrubland-44266.herokuapp.com/", "127.0.0.1"]
+ALLOWED_HOSTS = ["safe-scrubland-44266.herokuapp.com", "127.0.0.1"]
 
 
 # Application definition
@@ -48,6 +48,7 @@ MIDDLEWARE = [
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
