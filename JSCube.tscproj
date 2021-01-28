@@ -1,0 +1,376 @@
+{
+  "title" : "",
+  "description" : "",
+  "author" : "",
+  "targetLoudness" : -18.0,
+  "shouldApplyLoudnessNormalization" : true,
+  "videoFormatFrameRate" : 30,
+  "audioFormatSampleRate" : 44100,
+  "width" : 816.0,
+  "height" : 1040.0,
+  "version" : "4.0",
+  "editRate" : 30,
+  "authoringClientName" :  {
+    "name" : "Camtasia",
+    "platform" : "Windows",
+    "version" : "20.0"
+  },
+  "sourceBin" : [
+    {
+      "id" : 1,
+      "src" : "C:\\Users\\david\\OneDrive\\Microsoft Docs\\Camtasia\\Rec 08-28-20_002.trec",
+      "rect" : [0, 0, 816, 1040],
+      "lastMod" : "20200828T215530",
+      "sourceTracks" : [
+        {
+          "range" : [0, 4527],
+          "type" : 0,
+          "editRate" : 30,
+          "trackRect" : [0, 0, 816, 1040],
+          "sampleRate" : 30,
+          "bitDepth" : 0,
+          "numChannels" : 0,
+          "integratedLUFS" : 100.0,
+          "peakLevel" : -1.0,
+          "metaData" : "2b7b6a00-7a1f-11e2-83d0-0017f200be7f;2b7b6aef-7a1f-11e2-83d0-0017f200be7f;2b7b6af0-7a1f-11e2-83d0-0017f200be7f;2b7b6af1-7a1f-11e2-83d0-0017f200be7f;2b7b6af2-7a1f-11e2-83d0-0017f200be7f;2b7b6af3-7a1f-11e2-83d0-0017f200be7f;2b7b6af5-7a1f-11e2-83d0-0017f200be7f;2b7b6af6-7a1f-11e2-83d0-0017f200be7f;2b7b6af7-7a1f-11e2-83d0-0017f200be7f;2b7b6af8-7a1f-11e2-83d0-0017f200be7f;2b7b6af9-7a1f-11e2-83d0-0017f200be7f;2b7b6afa-7a1f-11e2-83d0-0017f200be7f;"
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20200828T215530.765288"
+      }
+    }
+  ],
+  "timeline" : {
+    "id" : 2,
+    "sceneTrack" : {
+      "scenes" : [
+        {
+          "csml" : {
+            "tracks" : [
+              {
+                "trackIndex" : 0,
+                "medias" : [
+                  {
+                    "id" : 3,
+                    "_type" : "ScreenVMFile",
+                    "src" : 1,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Rec 08-28-20_002"
+                    },
+                    "parameters" : {
+                      "sourceCrop0" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop1" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop2" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop3" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop0" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop1" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop2" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop3" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "cursorScale" : {
+                        "type" : "double",
+                        "defaultValue" : 1.0,
+                        "interp" : "linr"
+                      },
+                      "cursorOpacity" : {
+                        "type" : "double",
+                        "defaultValue" : 1.0,
+                        "interp" : "linr"
+                      }
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 0,
+                    "duration" : 1223,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 1223,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "AutoAppliedSmartFocus" : "False",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 4,
+                    "_type" : "ScreenVMFile",
+                    "src" : 1,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Rec 08-28-20_002"
+                    },
+                    "parameters" : {
+                      "sourceCrop0" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop1" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop2" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop3" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop0" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop1" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop2" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop3" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "cursorScale" : {
+                        "type" : "double",
+                        "defaultValue" : 1.0,
+                        "interp" : "linr"
+                      },
+                      "cursorOpacity" : {
+                        "type" : "double",
+                        "defaultValue" : 1.0,
+                        "interp" : "linr"
+                      }
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 1223,
+                    "duration" : 2674,
+                    "mediaStart" : 1584,
+                    "mediaDuration" : 2674,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "AutoAppliedSmartFocus" : "False",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 1,
+                "medias" : [
+                ]
+              }            ]
+          }
+        }
+      ]
+    },
+    "trackAttributes" : [
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "matte" : 0,
+        "solo" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "matte" : 0,
+        "solo" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      }
+    ],
+    "parameters" : {
+      "toc" : {
+        "type" : "string",
+        "keyframes" : [
+          {
+            "endTime" : 223,
+            "time" : 223,
+            "value" : "Basic load of index",
+            "duration" : 0,
+            "metadata" : {
+              "Checked" : "True",
+              "IndentLevel" : "0",
+              "markerIdentifier" : "2AF95A54-A837-423B-BF4F-0A17C3E25472"
+            }
+          },
+          {
+            "endTime" : 349,
+            "time" : 349,
+            "value" : "Preservation of page info during refresh",
+            "duration" : 0,
+            "metadata" : {
+              "Checked" : "True",
+              "IndentLevel" : "0",
+              "markerIdentifier" : "85675EFF-60F8-431B-9E99-E32CAC989965"
+            }
+          },
+          {
+            "endTime" : 484,
+            "time" : 484,
+            "value" : "Reset button ",
+            "duration" : 0,
+            "metadata" : {
+              "Checked" : "True",
+              "IndentLevel" : "0",
+              "markerIdentifier" : "36E63020-5FD0-4C89-99F4-8BE146F751B5"
+            }
+          },
+          {
+            "endTime" : 701,
+            "time" : 701,
+            "value" : "Register",
+            "duration" : 0,
+            "metadata" : {
+              "Checked" : "True",
+              "IndentLevel" : "0",
+              "markerIdentifier" : "A1B3CFBC-459F-42C9-A1CE-E75A932AA1EA"
+            }
+          },
+          {
+            "endTime" : 1345,
+            "time" : 1345,
+            "value" : "Save an already saved puzzle",
+            "duration" : 0,
+            "metadata" : {
+              "Checked" : "True",
+              "IndentLevel" : "0",
+              "markerIdentifier" : "42683370-F79E-4314-8249-2BC536BE5CE8"
+            }
+          },
+          {
+            "endTime" : 2584,
+            "time" : 2584,
+            "value" : "Save another puzzle",
+            "duration" : 0,
+            "metadata" : {
+              "Checked" : "True",
+              "IndentLevel" : "0",
+              "markerIdentifier" : "5DAA7B7B-F8BE-4BF4-BA94-518952301098"
+            }
+          },
+          {
+            "endTime" : 2868,
+            "time" : 2868,
+            "value" : "View saved puzzles",
+            "duration" : 0,
+            "metadata" : {
+              "Checked" : "True",
+              "IndentLevel" : "0",
+              "markerIdentifier" : "6A83C04A-310B-44E6-93FC-C61BF56DEE4D"
+            }
+          },
+          {
+            "endTime" : 3318,
+            "time" : 3318,
+            "value" : "Create a new puzzle",
+            "duration" : 0,
+            "metadata" : {
+              "Checked" : "True",
+              "IndentLevel" : "0",
+              "markerIdentifier" : "0268B630-5777-479C-B0E3-99CC4468CD09"
+            }
+          },
+          {
+            "endTime" : 3759,
+            "time" : 3759,
+            "value" : "Logout",
+            "duration" : 0,
+            "metadata" : {
+              "Checked" : "True",
+              "IndentLevel" : "0",
+              "markerIdentifier" : "352FF160-EC2A-40CF-8708-9CDF9B3F650A"
+            }
+          }
+        ]
+      }
+    },
+    "captionAttributes" : {
+      "enabled" : true,
+      "fontName" : "Arial",
+      "fontSize" : 30,
+      "backgroundColor" : [ 0, 0, 0, 191],
+      "foregroundColor" : [ 255, 255, 255, 255],
+      "lang" : "en",
+      "alignment" : 0,
+      "defaultFontSize" : true,
+      "opacity" : 0.5,
+      "backgroundEnabled" : true,
+      "backgroundOnlyAroundText" : true
+    },
+    "backgroundColor" : [ 0, 0, 0, 255]
+  },
+  "metadata" : {
+    "AutoSaveFile" : "C:\\Users\\david\\AppData\\Local\\TechSmith\\Camtasia Studio\\20.0\\Auto-Saves\\Untitled Project251ccbcb.autosave.tscproj",
+    "CanvasZoom" : 25,
+    "Date" : "2020-08-28 02:49:49 PM",
+    "IsAutoSave" : "0",
+    "Language" : "ENU",
+    "ProfileName" : "",
+    "ProjectDimensionsChanged" : "1",
+    "ShouldHardlinkProjectMedia" : "0",
+    "Title" : "JSCube",
+    "audioNarrationNotes" : "",
+    "calloutStyle" : "Basic"
+  }
+}

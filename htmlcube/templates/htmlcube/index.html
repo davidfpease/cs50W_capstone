@@ -1,0 +1,193 @@
+
+{% extends "htmlcube/layout.html" %}
+{%  load static  %}
+  {% block scripts %}
+
+  <script src="{% static 'htmlcube/main.js' %}"></script>
+  <script src="{% static 'htmlcube/horizontal.js' %}"></script>
+  <script src="{% static 'htmlcube/vertical.js' %}"></script>
+  {% endblock %}
+
+    {% block body %}
+    <div id="shell">
+      <br>
+      <div id="cube">
+        <div id="topFace" class="checkers">
+
+        		<div class="square" id="T1" style="background-color: blue"><p>T1</p></div>
+        		<div class="square" id="T2" style="background-color: blue"><p>T2</p></div>
+        		<div class="square" id="T3" style="background-color: blue"><p>T3</p></div>
+        		<div class="square" id="T4" style="background-color: blue"><p>T4</p></div>
+        		<div class="square" id="T5" style="background-color: blue"><p>T5</p></div>
+        		<div class="square" id="T6" style="background-color: blue"><p>T6</p></div>
+        		<div class="square" id="T7" style="background-color: blue"><p>T7</p></div>
+        		<div class="square" id="T8" style="background-color: blue"><p>T8</p></div>
+            <div class="square" id="T9" style="background-color: blue"><p>T9</p></div>
+
+        </div>
+
+        <div id="leftFace">
+
+        		<div class="square" id="L1" style="background-color: yellow"><p>L1</p></div>
+        		<div class="square" id="L2" style="background-color: yellow"><p>L2</p></div>
+        		<div class="square" id="L3" style="background-color: yellow"><p>L3</p></div>
+        		<div class="square" id="L4" style="background-color: yellow"><p>L4</p></div>
+        		<div class="square" id="L5" style="background-color: yellow"><p>L5</p></div>
+        		<div class="square" id="L6" style="background-color: yellow"><p>L6</p></div>
+        		<div class="square" id="L7" style="background-color: yellow"><p>L7</p></div>
+        		<div class="square" id="L8" style="background-color: yellow"><p>L8</p></div>
+            <div class="square" id="L9" style="background-color: yellow"><p>L9</p></div>
+
+        </div>
+
+        <div id="rightFace">
+
+            <div class="square" id="R1" style="background-color: red"><p>R1</p></div>
+            <div class="square" id="R2" style="background-color: red"><p>R2</p></div>
+            <div class="square" id="R3" style="background-color: red"><p>R3</p></div>
+            <div class="square" id="R4" style="background-color: red"><p>R4</p></div>
+            <div class="square" id="R5" style="background-color: red"><p>R5</p></div>
+            <div class="square" id="R6" style="background-color: red"><p>R6</p></div>
+            <div class="square" id="R7" style="background-color: red"><p>R7</p></div>
+            <div class="square" id="R8" style="background-color: red"><p>R8</p></div>
+            <div class="square" id="R9" style="background-color: red"><p>R9</p></div>
+
+        </div>
+
+        <div id="leftBackFace" class="checkers">
+            <span><h3>Back Left Face</h3></span>
+        		<div class="square" id="l1" style="background-color: green"><p>l1</p></div>
+        		<div class="square" id="l2" style="background-color: green"><p>l2</p></div>
+        		<div class="square" id="l3" style="background-color: green"><p>l3</p></div>
+        		<div class="square" id="l4" style="background-color: green"><p>l4</p></div>
+        		<div class="square" id="l5" style="background-color: green"><p>l5</p></div>
+        		<div class="square" id="l6" style="background-color: green"><p>l6</p></div>
+        		<div class="square" id="l7" style="background-color: green"><p>l7</p></div>
+        		<div class="square" id="l8" style="background-color: green"><p>l8</p></div>
+            <div class="square" id="l9" style="background-color: green"><p>l9</p></div>
+
+        </div>
+
+        <div id="rightBackFace" class="checkers">
+            <span><h3>Back Right Face</h3></span>
+        		<div class="square" id="r1" style="background-color: white"><p>r1</p></div>
+        		<div class="square" id="r2" style="background-color: white"><p>r2</p></div>
+        		<div class="square" id="r3" style="background-color: white"><p>r3</p></div>
+        		<div class="square" id="r4" style="background-color: white"><p>r4</p></div>
+        		<div class="square" id="r5" style="background-color: white"><p>r5</p></div>
+        		<div class="square" id="r6" style="background-color: white"><p>r6</p></div>
+        		<div class="square" id="r7" style="background-color: white"><p>r7</p></div>
+        		<div class="square" id="r8" style="background-color: white"><p>r8</p></div>
+            <div class="square" id="r9" style="background-color: white"><p>r9</p></div>
+
+        </div>
+
+        <div id="bottomFace" class="checkers">
+          <span><h3>Bottom Face</h3></span>
+
+        		<div class="square" id="b3" style="background-color: orange"><p>b3</p></div>
+        		<div class="square" id="b2" style="background-color: orange"><p>b2</p></div>
+        		<div class="square" id="b1" style="background-color: orange"><p>b1</p></div>
+        		<div class="square" id="b6" style="background-color: orange"><p>b6</p></div>
+        		<div class="square" id="b5" style="background-color: orange"><p>b5</p></div>
+        		<div class="square" id="b4" style="background-color: orange"><p>b4</p></div>
+        		<div class="square" id="b9" style="background-color: orange"><p>b9</p></div>
+        		<div class="square" id="b8" style="background-color: orange"><p>b8</p></div>
+            <div class="square" id="b7" style="background-color: orange"><p>b7</p></div>
+
+        </div>
+
+        <div id="leftButtons">
+      		<div class="moveButton" ><button id="topLeftLeft" data-dir=0 data-facedir=0 type="button"><<<</button></div>
+          <div class="moveButton" ><button id="topLeftRight" data-dir=1 data-facedir=1 type="button">>>></button></div>
+          <div class="moveButton" ><button id="middleLeftLeft" data-dir=0 type="button"><<<</button></div>
+          <div class="moveButton" ><button id="middleLeftRight" data-dir=1 type="button">>>></button></div>
+          <div class="moveButton" ><button id="bottomLeftLeft" data-dir=0 data-facedir=0 type="button"><<<</button></div>
+          <div class="moveButton" ><button id="bottomLeftRight" data-dir=1 data-facedir=1 type="button">>>></button></div>
+      	</div>
+
+        <div id="leftUpDownButtons">
+          <div class="moveButton2" ><button id="leftLeftUp" data-dir=0 data-facedir=1 type="button">˄˄˄</button></div>
+          <div class="moveButton2" ><button id="leftMiddleUp" data-dir=0 type="button">˄˄˄</button></div>
+          <div class="moveButton2" ><button id="leftRightUp" data-dir=0 data-facedir=0 type="button">˄˄˄</button></div>
+          <div class="moveButton2" ><button id="leftLeftDown" data-dir=1 data-facedir=0 type="button">˅˅˅</button></div>
+          <div class="moveButton2" ><button id="leftMiddleDown" data-dir=1 type="button">˅˅˅</button></div>
+          <div class="moveButton2" ><button id="leftRightDown" data-dir=1 data-facedir=1 type="button">˅˅˅</button></div>
+        </div>
+
+        <div id="rightUpDownButtons">
+          <div class="moveButton2" ><button id="rightLeftUp" data-dir=0 data-facedir=1 type="button">˄˄˄</button></div>
+          <div class="moveButton2" ><button id="rightMiddleUp" data-dir=0 type="button">˄˄˄</button></div>
+          <div class="moveButton2" ><button id="rightRightUp" data-dir=0 data-facedir=0 type="button">˄˄˄</button></div>
+          <div class="moveButton2" ><button id="rightLeftDown" data-dir=1 data-facedir=0 type="button">˅˅˅</button></div>
+          <div class="moveButton2" ><button id="rightMiddleDown" data-dir=1 type="button">˅˅˅</button></div>
+          <div class="moveButton2" ><button id="rightRightDown" data-dir=1 data-facedir=1 type="button">˅˅˅</button></div>
+        </div>
+
+      </div>
+
+      <div>
+        {% if user.is_authenticated %}
+          <button id="save" type="button">Save Puzzle</button>
+          <button id="new" type="button">New Puzzle</button>
+        {% else %}
+        <button id="save" type="button" style="display: none">Save Puzzle</button>
+        <button id="new" type="button" style="display: none">New Puzzle</button>
+          <h3>Log In to save your progress.</h3>
+        {% endif %}
+        <br>
+        <br>
+        <h4 id="savedPuzzle"></h4>
+        <h4 id="lastSave"></h4>
+
+      </div>
+      <br>
+
+      <div>
+        <button id="reset" type="button">Reset</button>
+        <button id="undo" type="button">Undo</button>
+        <button id="redo" type="button">Redo</button>
+      </div>
+      <br>
+    </div>
+
+  <!--if this puzzle is saved execute the script below to retrieve puzzle data from serve-->
+      {% if puzzledata %}
+        <script>
+            document.addEventListener('DOMContentLoaded', function(){
+
+              let data = {% autoescape off %}{{puzzledata}};
+              let history = JSON.parse('{"snapLog":'+data.history+"}");
+              let historyLength = history.snapLog.length-1;
+
+              localStorage.setItem("history", JSON.stringify(history));
+              localStorage.setItem("moveIndex",'{"moveIndex": '+historyLength+'}');
+              localStorage.setItem("puzzleName", data.name);
+
+              let colorsObj = JSON.parse(data.snap);
+              //reset colors
+              keys = Object.keys(colorsObj);
+              for (i=0; i <keys.length; i++){
+                document.querySelector('#'+keys[i].toString()).style.backgroundColor = colorsObj[keys[i]];
+              }
+
+              
+              if (localStorage.getItem("puzzleName") != ''){
+                let savename = localStorage.getItem("puzzleName");
+                let tstamp = localStorage.getItem("timestamp");
+
+                document.querySelector('#savedPuzzle').innerHTML = `Puzzle saved as: ${savename}`;
+                document.querySelector('#lastSave').innerHTML = `Last save: ${tstamp}`;
+              }
+
+
+
+              {% endautoescape %}
+            });
+
+
+      </script>
+
+      {% endif %}
+
+    {% endblock %}

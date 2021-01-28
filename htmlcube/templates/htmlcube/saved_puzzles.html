@@ -1,0 +1,20 @@
+
+{% extends "htmlcube/layout.html" %}
+{%  load static  %}
+
+
+  {% block body %}
+    <br>
+    <div id="register">
+    <h2>{{ request.user.username }}'s Saved Puzzles</h2>
+      <ul>
+        {% for puzzle in puzzles %}
+            <li><a href="{% url 'saved_puzzle' puzzle.name %}"> {{ puzzle.name }} </a> last saved on {{ puzzle.lastSave }}</li>
+        {% empty %}
+            <li>No Puzzles.</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+
+  {% endblock %}
